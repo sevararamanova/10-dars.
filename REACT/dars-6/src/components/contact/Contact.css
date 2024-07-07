@@ -1,0 +1,58 @@
+.contact {
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/contact-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .contact__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact__item {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .contact__item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact__item p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  
+  .contact__social {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social__icon {
+    font-size: 2rem;
+   border:1px solid black;
+  
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  .contact__social{
+   margin-left: 60px;
+   margin-top: 10px;
+  }
+  
+  .social__icon:hover {
+    color: #007bff; /* Ijtimoiy tarmoqlarning rangini o'zgartirish */
+  }
+  
